@@ -51,3 +51,4 @@ Packer.toBuffer(doc).then((buffer) => {
   fs.writeFileSync(filePath, buffer);
   console.log(`Da tao file word thanh cong: ${filePath}`);
 });
+
