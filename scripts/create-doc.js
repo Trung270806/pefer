@@ -16,8 +16,8 @@ const lines = [
   `Full Name: ${fullName}`,
   `GitHub Repository URL: https://github.com/Trung270806/pefer`,
   `Vercel Production URL: ${vercelUrl}`,
-  `Supabase Project URL: https://rygopvgiutkgknryxflw.supabase.co`,
-  `Supabase anon (public) key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ5Z29wdmdpdXRrZ2tucnl4Zmx3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTExOTkzMTAsImV4cCI6MjEwNjc3NTMxMH0.gV5bOmAvbfqaH60hppbNQoNBn4bISIoN5QpS3oZrWw8`,
+  `Supabase Project URL: https://ljtfimeoecxehzyabwjg.supabase.co`,
+  `Supabase anon (public) key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxqdGZpbWVvZWN4ZWh6eWFid2pnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM2NzExNTUsImV4cCI6MjEwOTI0NzE1NX0.u8EVo0YgXJv07Wg6fLZJVgiMb6Ea6TTKYVoVGAPP_XM`,
   `Test account email: grader.${studentCode.toLowerCase()}@example.com`,
   `Test account password: Test1234!`,
 ];
@@ -51,4 +51,3 @@ Packer.toBuffer(doc).then((buffer) => {
   fs.writeFileSync(filePath, buffer);
   console.log(`Da tao file word thanh cong: ${filePath}`);
 });
-
