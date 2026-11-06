@@ -4,7 +4,7 @@ const { Document, Packer, Paragraph, TextRun } = require("docx");
 
 const studentCode = process.argv[2] || "QE200012";
 const fullName = process.argv[3] || "Nguyen Van A";
-const vercelUrl = process.argv[4] || "https://pefer.vercel.app";
+const vercelUrl = process.argv[4] || "https://pefer-rosy.vercel.app";
 const outDir = process.argv[5] || path.join(__dirname, "..", "submit");
 
 if (!fs.existsSync(outDir)) {
