@@ -302,9 +302,8 @@ export default function BooksPage() {
                   <Input
                     id="input-pages"
                     data-testid="input-pages"
-                    type="number"
-                    min="1"
-                    max="5000"
+                    type="text"
+                    inputMode="numeric"
                     placeholder="e.g. 180"
                     value={pages}
                     onChange={handlePagesChange}
