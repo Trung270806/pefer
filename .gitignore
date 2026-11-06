@@ -39,6 +39,8 @@ yarn-error.log*
 /submit
 *.zip
 *.docx
+*.doc
+exam_spec.txt
 
 # vercel
 .vercel

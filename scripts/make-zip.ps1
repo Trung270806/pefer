@@ -22,7 +22,7 @@ function Test-Excluded([string]$rel) {
     if ($parts -contains 'node_modules' -or $parts -contains '.next' -or $parts -contains '.git') { return $true }
     $name = $parts[-1]
     if ($name -like '.env*' -and $name -ne '.env.example') { return $true }
-    if ($name -like '*.zip' -or $name -like '*.docx' -or $name -like '*.tsbuildinfo') { return $true }
+    if ($name -like '*.zip' -or $name -like '*.docx' -or $name -like '*.doc' -or $name -like '*.tsbuildinfo' -or $name -eq 'exam_spec.txt') { return $true }
     return $false
 }
 
